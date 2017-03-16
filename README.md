@@ -3,8 +3,9 @@ A bidirectional HTTP proxy providing an HTTP communication pathway between `osCo
 
 # Setup
 ### Dependencies:
-	
+
 - Go (tested on 1.7)
+- Go library dependencies: `git submodule update --init`
 
 ### Compiling	
 - Test: `go test ./..`  
