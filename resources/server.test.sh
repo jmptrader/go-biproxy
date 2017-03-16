@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+echo -en "\x63\x69\x73\x63\x6f\x01\x04\xb0"$(cat resources/test.txt)A"\x63\x69\x73\x63\x6f\x01\x00\x02"AS | nc localhost 3500
